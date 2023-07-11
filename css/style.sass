@@ -1,0 +1,140 @@
+---
+---
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+// Start with assigning color names to specific hex values.
+
+$gray-dark       : #333333 //K 80%
+$gray            : #666666 //K 60%
+$gray-light      : #999999 //K 40%
+$gray-lighter    : #cccccc //K 20%
+$gray-lightest   : #f3f3f3 //K 5%
+$gray-ultralight : #f8f8f8 //K 3%
+
+$white  : #fff
+$black  : #000
+$blue   : #2996cc //base H200 S80 V80
+$teal   : #29CCB1
+$green  : #29CC5F
+$yellow : #CCB129
+$orange : #CC5F29
+$red    : #CC2944
+$pink   : #CC2996
+$purple : #B129CC
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg    : $gray-ultralight
+$body-color : $gray-dark
+
+$inverse-bg    : $gray-ultralight
+$inverse-color : $gray-dark
+
+// Links
+//
+// Style anchor elements.
+$link-hover-color: $teal
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$line-height-base     : 1.55
+$headings-line-height : $line-height-base
+$blockquote-font-size : 1rem
+$letter-spacing       : 0.01rem
+
+// Jumbotron
+$jumbotron-bg : $gray-ultralight
+
+// Cards
+$card-bg : $gray-ultralight
+
+// Code
+$code-color : $orange
+//$code-bg    : $gray-lightest
+
+
+//import bootstrap
+@import "bootstrap/bootstrap"
+@import "Desert/desert"
+
+body
+  letter-spacing : $letter-spacing
+
+
+pre
+  font-size : $font-size-sm
+
+.MathJax_Display
+  font-size : $font-size-lg
+
+.card
+  @extend .my-2
+
+.card h1
+  font-size : $h3-font-size
+.card h2
+  font-size : $h4-font-size
+.card h3
+  font-size : $h4-font-size
+.card h4
+  font-size : $h5-font-size
+.card h5, .card h6
+  font-size : 1rem
+
+h1:not(.card-header):not(.card-title), 
+h2:not(.card-header):not(.card-title),
+h3:not(.card-header):not(.card-title),
+h4:not(.card-header):not(.card-title),
+.h1, .h2, .h3, .h4
+  @extend .mt-5
+  @extend .mb-3
+
+table
+  @extend .table
+
+blockquote
+  border-left: solid medium $gray-300
+  @extend .mx-3
+  @extend .my-4
+  @extend .blockquote
+  @extend .pl-3
+
+.blockquote-footer
+  font-size: 100%
+
+p
+  @extend .text-justify
+
+.card-block
+  @extend .pt-3
+.card-block > p
+  @extend .card-text
+.card-block > *
+  @extend .ml-3
+
+.card-title
+  @extend .my-3
+  
+dd 
+  @extend .ml-3
+
+pre
+  @extend .p-3
+
+div.highlighter-rouge
+  @extend .rounded
+div.highlight
+  @extend .rounded
+
+div.card-columns.category-index
+  @include media-breakpoint-only(md)
+    column-count : 1
+  @include media-breakpoint-only(lg)
+    column-count : 3
