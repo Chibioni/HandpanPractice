@@ -61,7 +61,7 @@ $code-color : $orange;
 
 //import bootstrap
 @import "bootstrap/bootstrap";
-@import "Desert/desert";
+//@import "Desert/desert";
 
 body {
   letter-spacing : $letter-spacing;
@@ -105,25 +105,26 @@ blockquote {
   @extend .mx-3;
   @extend .my-4;
   @extend .blockquote;
-  @extend .pl-3;
+  @extend .ps-3;
 }
 
 .blockquote-footer {
   font-size: 100%;
 }
 
-p{
-  @extend .text-justify;
+p {
+  @extend .text-start;
 }
 
 .card-block {
   @extend .pt-3;
 }
+
 .card-block > p {
   @extend .card-text;
 }
 .card-block > * {
-  @extend .ml-3;
+  @extend .ms-3;
 }
 
 .card-title {
@@ -131,7 +132,7 @@ p{
 }
   
 dd {
-  @extend .ml-3;
+  @extend .ms-3;
 }
 
 pre {
