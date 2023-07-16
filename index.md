@@ -23,6 +23,10 @@ title  : ハンドパントレーニング
   * [01_02.派生1]({{site.github.url}}{% link _pages/start/03/03_02.md %})
   * [01_03.派生2]({{site.github.url}}{% link _pages/start/03/03_03.md %})
   * [01_04.派生3]({{site.github.url}}{% link _pages/start/03/03_04.md %})
+* [03.リムとDingを速く叩く]({{site.github.url}}{% link _pages/start/04/04.md %})
+  * [01_02.派生1]({{site.github.url}}{% link _pages/start/04/04_02.md %})
+  * [01_03.派生2]({{site.github.url}}{% link _pages/start/04/04_03.md %})
+  * [01_04.派生3]({{site.github.url}}{% link _pages/start/04/04_04.md %})
 
 ## 基本的な練習
 
