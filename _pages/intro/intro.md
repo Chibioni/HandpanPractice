@@ -1,0 +1,76 @@
+---
+layout : pages
+title  : はじめに
+---
+
+## 楽譜と音の対応表
+
+{% capture url %}{{ site.github.url }}{% link _pages/intro/images/example_score.svg %}{% endcapture %}
+{% assign caption = '' | markdownify %}
+{% include thumbnail.html url=url caption=caption %}
+
+{% capture urls %}
+{{ site.github.url }}{% link _pages/intro/images/layout1.svg %}
+{{ site.github.url }}{% link _pages/intro/images/layout2.svg %}
+{% endcapture %}
+
+{% capture captions %}
+レイアウト1
+レイアウト2
+{% endcapture %}
+
+{% assign urls     = urls     | strip | newline_to_br | split : "<br />"  %}
+{% assign captions = captions | strip | newline_to_br | split : "<br />"  %}
+
+{% include thumbnails.html urls=urls captions=captions %}
+
+このサイトで記述する楽譜とハンドパンの打面の対応表です。
+一般的なハンドパンの構成であれば、一番手前側に低音が来る配置の時、叩く音が上がると譜面上叩く音も上がるようになるはずです。
+手前に低音でない方向から構える場合、ハンドパンと譜面の音程に差が生じますが、対応できなくはないはずです。
+
+`R1...R4` は打面ではない部分です。これらを叩く時の印は `3`, `4`, `7`, `8`のところに `x` の音符で記述します。
+打面でない部分を拳で叩く場合の印を `o` に `x` の音符で記述します。
+
+{% capture url %}{{ site.github.url }}{% link _pages/intro/images/accent.svg %}{% endcapture %}
+{% assign caption = 'アクセント記号' | markdownify %}
+{% include thumbnail.html url=url caption=caption %}
+
+また、強く叩くところには`>`が音符の上に付きます。
+
+
+## 叩く時の指について
+
+{% capture url %}{{ site.github.url }}{% link _pages/intro/images/hands.svg %}{% endcapture %}
+{% capture caption %}
+<p>
+A original Hand illustration cregits:<br />
+<a href="https://commons.wikimedia.org/wiki/File:Hand.svg">The original was Kenny sh at English Wikipedia.</a>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+</p>
+<p>
+also, this Illustration <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+</p>
+{% endcapture %}
+{% include thumbnail.html url=url caption=caption %}
+
+親指で叩くところを `Thumb` (サム)、親指以外で叩く場所を `Tops` と書いていきます。
+Topsとしたのは、人によって人差し指だったり中指だったりと使う指が異なるからです。
+
+一部、Topsの練習として、人差し指、中指、薬指を指定する場所があります。
+
+## 楽譜の生成について
+
+[lilypond](https://lilypond.org/index.ja.html) を使ってコンパイルし、SVGを出力して使っています。
+
+出力のコマンドこちら
+
+```sh
+$ lilypond -dcrop inputFile.ly
+$ pdf2svg inputFile.cropped.pdf path/to/outputFile
+```
+
+`lilypond -dbackend=svg` で簡単にsvg出力ができるが、余分なデータが入るので `pdf2svg` で変換することにした。
+
+## なぜ書き始めた
+
+思いつく練習メニューがそろそろ覚えられなくなってきた。
