@@ -1,0 +1,28 @@
+{% comment %}
+{% raw %}
+
+{% include menu.html contents %}
+
+contents : contents inside of menu block
+
+example below
+
+example 1
+{% capture contents %}
+* coffee
+  * ice
+  * hot
+* tea
+  * ice
+  * hot
+{% endcapture %}
+{% assign contents = contents | markdownify %}
+{% include menu3column.html contents=contents %}
+
+{% endraw %}
+{% endcomment %}
+
+
+<div class="menu3column">
+  {{ include.contents }}
+</div>
