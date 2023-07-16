@@ -1,0 +1,45 @@
+{% comment %}
+{% raw %}
+
+{% include thumbnail.html urls captions %}
+
+urls     : image URLs
+captions : image captions, comments
+
+example below
+
+{% capture urls %}
+{{ site.github.url }}{% link path/to/image1 %}
+{{ site.github.url }}{% link path/to/image2 %}
+{{ site.github.url }}{% link path/to/image3 %}
+{{ site.github.url }}{% link path/to/image4 %}
+{% endcapture %}
+{% capture captions %}
+caption1
+caption2
+caption3
+caption4
+{% endcapture %}
+
+{% assign urls     = urls     | strip | newline_to_br | split : "<br />" %}
+{% assign captions = captions | strip | newline_to_br | split : "<br />" %}
+
+{% include thumbnails.html urls=urls captions=captions %}
+
+{% endraw %}
+{% endcomment %}
+
+<div class="row justify-content-md-center">
+  {% for url in include.urls %}
+  <div class="col-md-{{11 | divided_by: forloop.length}}">
+    <div class="card thumbnail">
+      <a href="{{ url }}">
+        <img src="{{ url }}" class="img-fluid rounded mx-auto d-block">
+      </a>
+      <div class="card-block">
+        <p>{{ include.captions[forloop.index0] }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

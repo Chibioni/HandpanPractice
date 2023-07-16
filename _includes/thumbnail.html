@@ -1,0 +1,39 @@
+{% comment %}
+{% raw %}
+
+{% include thumbnail.html url caption %}
+
+url     : image URL
+caption : image caption, comments
+
+example below
+
+example 1
+{% capture url %}{{ site.github.url }}{% link path/to/image %}{% endcapture %}
+{% assign caption = 'caption here' | markdownify %}
+{% include thumbnail.html url=url caption=caption %}
+
+example 2
+{% capture url %}{{ site.github.url }}{% link path/to/image %}{% endcapture %}
+{% capture caption %}
+Any long caption
+{% endcapture %}
+{% include thumbnail.html url=url caption=caption %}
+
+
+{% endraw %}
+{% endcomment %}
+
+
+<div class="row justify-content-md-center">
+  <div class="col-md-10">
+    <div class="card thumbnail">
+      <a href="{{ include.url }}">
+        <img src="{{ include.url }}" class="img-fluid rounded mx-auto d-block">
+      </a>
+      <div class="card-block">
+          {{ include.caption }}
+      </div>
+    </div>
+  </div>
+</div>

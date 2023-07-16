@@ -13,6 +13,10 @@ exclude:
 timezone: Asia/Tokyo
 encording: utf-8
 
+# ---- site vairables ----
+
+title : "ハンドパン筋トレメニュー"
+
 # ---- build option ----
 
 markdown: kramdown
@@ -23,3 +27,9 @@ kramdown:
 sass:
   sass_dir: _scss
   style: compressed
+
+# ---- build option ----
+collections:
+  pages:
+    output: true
+    permalink: /:path
