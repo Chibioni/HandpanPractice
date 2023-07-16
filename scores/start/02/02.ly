@@ -12,10 +12,10 @@
 
   \rimNote
 
-  \repeat unfold 4 { \once \defaultNote  b4^\LThumbTop                    f'_\RThumbBtm                     b^\LTopsTop                     c_\RTopsBtm } \break
-  \repeat unfold 4 {                    e,4^\LThumbTop \once \defaultNote  b_\RThumbBtm                    b'^\LTopsTop                     c_\RTopsBtm } \break
-  \repeat unfold 4 {                    e,4^\LThumbTop                     f_\RThumbBtm \once \defaultNote b,^\LTopsTop                    c'_\RTopsBtm } \break
-  \repeat unfold 4 {                    e,4^\LThumbTop                     f_\RThumbBtm                     b^\LTopsTop \once \defaultNote b,_\RTopsBtm }
+  \repeat unfold 4 { \once \defaultNote  b4^\RThumbTop                     e_\LThumbBtm                     c'^\RTopsTop                     b_\LTopsBtm } \break
+  \repeat unfold 4 {                     f4^\RThumbTop \once \defaultNote b,_\LThumbBtm                     c'^\RTopsTop                     b_\LTopsBtm } \break
+  \repeat unfold 4 {                     f4^\RThumbTop                     e_\LThumbBtm \once \defaultNote   b^\RTopsTop                    b'_\LTopsBtm } \break
+  \repeat unfold 4 {                     f4^\RThumbTop                     e_\LThumbBtm                     b'^\RTopsTop \once \defaultNote b,_\LTopsBtm }
 
   \resetNoteHead
 }
