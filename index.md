@@ -36,6 +36,11 @@ title  : ハンドパントレーニング
   * [02_02.派生1]({{site.github.url}}{% link _pages/basic/02/02.md %})
   * [02_03.派生2]({{site.github.url}}{% link _pages/basic/02/03.md %})
   * [02_04.派生3]({{site.github.url}}{% link _pages/basic/02/04.md %})
+* [03.リム複合]({{site.github.url}}{% link _pages/basic/03/01.md %})
+  * [03_02.派生1]({{site.github.url}}{% link _pages/basic/03/02.md %})
+  * [03_03.派生2]({{site.github.url}}{% link _pages/basic/03/03.md %})
+  * [03_04.派生3]({{site.github.url}}{% link _pages/basic/03/04.md %})
+
 {% endcapture %}
 {% assign contents = contents | markdownify %}
 {% include menu3column.html contents=contents %}
