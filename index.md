@@ -92,7 +92,6 @@ title  : ハンドパントレーニング
         * [リムとDing04]({{site.github.url}}{% link _pages/0002/04.md %})
         * [リムとDing(高速)04]({{site.github.url}}{% link _pages/0004/04.md %})
 
-
 {% endcapture %}
 {% assign contents = contents | markdownify %}
 {% include menu3column.html contents=contents %}
