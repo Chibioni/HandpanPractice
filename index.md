@@ -92,6 +92,39 @@ title  : ハンドパントレーニング
         * [リムとDing04]({{site.github.url}}{% link _pages/0002/04.md %})
         * [リムとDing(高速)04]({{site.github.url}}{% link _pages/0004/04.md %})
 
+リムとトーンフィールド
+: * [リムとトーンフィールド応用(複合)01]({{site.github.com}}{% link _pages/0018/01.md %})
+  * [リムとトーンフィールド応用(複合)02]({{site.github.com}}{% link _pages/0018/02.md %})
+  * [リムとトーンフィールド応用(複合)03]({{site.github.com}}{% link _pages/0018/03.md %})
+  * [リムとトーンフィールド応用(複合)04]({{site.github.com}}{% link _pages/0018/04.md %})
+  
+  難しい時の練習
+  : * [リムとトーンフィールド応用01]({{site.github.com}}{% link _pages/0016/01.md %})
+    * [リムとトーンフィールド応用(高速)01]({{site.github.com}}{% link _pages/0017/01.md %})
+    * [リムとトーンフィールド応用02]({{site.github.com}}{% link _pages/0016/02.md %})
+    * [リムとトーンフィールド応用(高速)02]({{site.github.com}}{% link _pages/0017/02.md %})
+    * [リムとトーンフィールド応用03]({{site.github.com}}{% link _pages/0016/03.md %})
+    * [リムとトーンフィールド応用(高速)03]({{site.github.com}}{% link _pages/0017/03.md %})
+    * [リムとトーンフィールド応用04]({{site.github.com}}{% link _pages/0016/04.md %})
+    * [リムとトーンフィールド応用(高速)04]({{site.github.com}}{% link _pages/0017/04.md %})
+
+    難しい時の練習
+    : * [リムとトーンフィールド複合01]({{site.github.com}}{% link _pages/0015/01.md %})
+      * [リムとトーンフィールド複合02]({{site.github.com}}{% link _pages/0015/02.md %})
+      * [リムとトーンフィールド複合03]({{site.github.com}}{% link _pages/0015/03.md %})
+      * [リムとトーンフィールド複合04]({{site.github.com}}{% link _pages/0015/04.md %})
+
+      難しい時の練習
+      : * [リムとトーンフィールド01]({{site.github.com}}{% link _pages/0013/01.md %})
+        * [リムとトーンフィールド(高速)01]({{site.github.com}}{% link _pages/0014/01.md %})
+        * [リムとトーンフィールド02]({{site.github.com}}{% link _pages/0013/02.md %})
+        * [リムとトーンフィールド(高速)02]({{site.github.com}}{% link _pages/0014/02.md %})
+        * [リムとトーンフィールド03]({{site.github.com}}{% link _pages/0013/03.md %})
+        * [リムとトーンフィールド(高速)03]({{site.github.com}}{% link _pages/0014/03.md %})
+        * [リムとトーンフィールド04]({{site.github.com}}{% link _pages/0013/04.md %})
+        * [リムとトーンフィールド(高速)04]({{site.github.com}}{% link _pages/0014/04.md %})
+
+
 {% endcapture %}
 {% assign contents = contents | markdownify %}
 {% include menu3column.html contents=contents %}
