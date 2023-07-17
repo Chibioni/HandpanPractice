@@ -1,5 +1,5 @@
 \version "2.24.1"
-\include "../../global.ly"
+\include "../global.ly"
 
 \layout {
   indent = -3.5
