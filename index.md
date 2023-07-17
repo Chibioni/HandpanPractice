@@ -28,6 +28,39 @@ title  : ハンドパントレーニング
 ## 基本的な練習
 
 {% capture contents %}
+アクセント移動
+: * [アクセント移動応用(複合)01]({{site.github.com}}{% link _pages/0024/01.md %})
+  * [アクセント移動応用(複合)02]({{site.github.com}}{% link _pages/0024/02.md %})
+  * [アクセント移動応用(複合)03]({{site.github.com}}{% link _pages/0024/03.md %})
+  * [アクセント移動応用(複合)04]({{site.github.com}}{% link _pages/0024/04.md %})
+  
+  難しい時の練習
+  : * [アクセント移動応用01]({{site.github.com}}{% link _pages/0022/01.md %})
+    * [アクセント移動応用(高速)01]({{site.github.com}}{% link _pages/0023/01.md %})
+    * [アクセント移動応用02]({{site.github.com}}{% link _pages/0022/02.md %})
+    * [アクセント移動応用(高速)02]({{site.github.com}}{% link _pages/0023/02.md %})
+    * [アクセント移動応用03]({{site.github.com}}{% link _pages/0022/03.md %})
+    * [アクセント移動応用(高速)03]({{site.github.com}}{% link _pages/0023/03.md %})
+    * [アクセント移動応用04]({{site.github.com}}{% link _pages/0022/04.md %})
+    * [アクセント移動応用(高速)04]({{site.github.com}}{% link _pages/0023/04.md %})
+
+    難しい時の練習
+    : * [アクセント移動複合01]({{site.github.com}}{% link _pages/0021/01.md %})
+      * [アクセント移動複合02]({{site.github.com}}{% link _pages/0021/02.md %})
+      * [アクセント移動複合03]({{site.github.com}}{% link _pages/0021/03.md %})
+      * [アクセント移動複合04]({{site.github.com}}{% link _pages/0021/04.md %})
+
+      難しい時の練習
+      : * [アクセント移動01]({{site.github.com}}{% link _pages/0019/01.md %})
+        * [アクセント移動(高速)01]({{site.github.com}}{% link _pages/0020/01.md %})
+        * [アクセント移動02]({{site.github.com}}{% link _pages/0019/02.md %})
+        * [アクセント移動(高速)02]({{site.github.com}}{% link _pages/0020/02.md %})
+        * [アクセント移動03]({{site.github.com}}{% link _pages/0019/03.md %})
+        * [アクセント移動(高速)03]({{site.github.com}}{% link _pages/0020/03.md %})
+        * [アクセント移動04]({{site.github.com}}{% link _pages/0019/04.md %})
+        * [アクセント移動(高速)04]({{site.github.com}}{% link _pages/0020/04.md %})
+
+
 リムを叩く
 : * [リム応用(複合)01]({{site.github.url}}{% link _pages/0011/01.md %})
   * [リム応用(複合)02]({{site.github.url}}{% link _pages/0011/02.md %})
