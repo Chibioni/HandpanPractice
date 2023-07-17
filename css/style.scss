@@ -170,3 +170,15 @@ div.menu3column {
     column-count: 3;
   }
 }
+
+div.menu>dl>dd>ul {
+  font-weight: bold;
+}
+
+div.menu dd dd {
+  font-size : 0.9em;
+}
+
+div.menu dd dt {
+  padding-left: 2rem;
+}
