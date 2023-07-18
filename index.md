@@ -124,6 +124,11 @@ title  : ハンドパントレーニング
         * [休符移動04]({{site.github.com}}{% link _pages/0031/04.md %})
         * [休符移動(高速)04]({{site.github.com}}{% link _pages/0032/04.md %})
 
+{% endcapture %}
+{% assign contents = contents | markdownify %}
+{% include menu3column.html contents=contents %}
+
+{% capture contents %}
 
 リムを叩く
 : * [リム応用(複合)01]({{site.github.url}}{% link _pages/0011/01.md %})
