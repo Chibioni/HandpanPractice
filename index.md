@@ -60,6 +60,37 @@ title  : ハンドパントレーニング
         * [アクセント移動04]({{site.github.com}}{% link _pages/0019/04.md %})
         * [アクセント移動(高速)04]({{site.github.com}}{% link _pages/0020/04.md %})
 
+トーンフィールドとDing
+: * [トーンフィールドとDing応用(複合)01]({{site.github.url}}{% link _pages/0030/01.md %})
+  * [トーンフィールドとDing応用(複合)02]({{site.github.url}}{% link _pages/0030/02.md %})
+  * [トーンフィールドとDing応用(複合)03]({{site.github.url}}{% link _pages/0030/03.md %})
+  * [トーンフィールドとDing応用(複合)04]({{site.github.url}}{% link _pages/0030/04.md %})
+
+  難しい時の練習
+  : * [トーンフィールドとDing応用01]({{site.github.url}}{% link _pages/0028/01.md %})
+    * [トーンフィールドとDing応用(高速)01]({{site.github.url}}{% link _pages/0029/01.md %})
+    * [トーンフィールドとDing応用02]({{site.github.url}}{% link _pages/0028/02.md %})
+    * [トーンフィールドとDing応用(高速)02]({{site.github.url}}{% link _pages/0029/02.md %})
+    * [トーンフィールドとDing応用03]({{site.github.url}}{% link _pages/0028/03.md %})
+    * [トーンフィールドとDing応用(高速)03]({{site.github.url}}{% link _pages/0029/03.md %})
+    * [トーンフィールドとDing応用04]({{site.github.url}}{% link _pages/0028/04.md %})
+    * [トーンフィールドとDing応用(高速)04]({{site.github.url}}{% link _pages/0029/04.md %})
+
+    難しい時の練習
+    : * [トーンフィールドとDing複合01]({{site.github.url}}{% link _pages/0027/01.md %})
+      * [トーンフィールドとDing複合02]({{site.github.url}}{% link _pages/0027/02.md %})
+      * [トーンフィールドとDing複合03]({{site.github.url}}{% link _pages/0027/03.md %})
+      * [トーンフィールドとDing複合04]({{site.github.url}}{% link _pages/0027/04.md %})
+
+      難しい時の練習
+      : * [トーンフィールドとDing01]({{site.github.url}}{% link _pages/0025/01.md %})
+        * [トーンフィールドとDing(高速)01]({{site.github.url}}{% link _pages/0026/01.md %})
+        * [トーンフィールドとDing02]({{site.github.url}}{% link _pages/0025/02.md %})
+        * [トーンフィールドとDing(高速)02]({{site.github.url}}{% link _pages/0026/02.md %})
+        * [トーンフィールドとDing03]({{site.github.url}}{% link _pages/0025/03.md %})
+        * [トーンフィールドとDing(高速)03]({{site.github.url}}{% link _pages/0026/03.md %})
+        * [トーンフィールドとDing04]({{site.github.url}}{% link _pages/0025/04.md %})
+        * [トーンフィールドとDing(高速)04]({{site.github.url}}{% link _pages/0026/04.md %})
 
 リムを叩く
 : * [リム応用(複合)01]({{site.github.url}}{% link _pages/0011/01.md %})
