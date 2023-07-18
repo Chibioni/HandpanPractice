@@ -13,5 +13,6 @@
   \repeat unfold 4 { b4^\RThumbTop   e_\LThumbBtm  c'^\RTopsTop   b_\LTopsBtm } \break
   \repeat unfold 4 { f4^\RThumbTop  b,_\LThumbBtm  c'^\RTopsTop   b_\LTopsBtm } \break
   \repeat unfold 4 { f4^\RThumbTop   e_\LThumbBtm   b^\RTopsTop  b'_\LTopsBtm } \break
-  \repeat unfold 4 { f4^\RThumbTop   e_\LThumbBtm  b'^\RTopsTop  b,_\LTopsBtm } \break
+  \repeat unfold 4 { f4^\RThumbTop   e_\LThumbBtm  c'^\RTopsTop  b,_\LTopsBtm } \break
+
 }

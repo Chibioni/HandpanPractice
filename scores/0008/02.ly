@@ -16,7 +16,7 @@
     \once \defaultNote  b4^\RThumbTop                     e_\LThumbBtm                     c'^\RTopsTop                     b_\LTopsBtm 
                         f4^\RThumbTop \once \defaultNote b,_\LThumbBtm                     c'^\RTopsTop                     b_\LTopsBtm 
                         f4^\RThumbTop                     e_\LThumbBtm \once \defaultNote   b^\RTopsTop                    b'_\LTopsBtm 
-                        f4^\RThumbTop                     e_\LThumbBtm                     b'^\RTopsTop \once \defaultNote b,_\LTopsBtm 
+                        f4^\RThumbTop                     e_\LThumbBtm                     c'^\RTopsTop \once \defaultNote b,_\LTopsBtm 
     \break
   }
 

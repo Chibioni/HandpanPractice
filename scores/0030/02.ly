@@ -14,7 +14,7 @@
     b4^\RThumbTop   e_\LThumbBtm  c'^\RTopsTop   b_\LTopsBtm 
     f4^\RThumbTop  b,_\LThumbBtm  c'^\RTopsTop   b_\LTopsBtm 
     f4^\RThumbTop   e_\LThumbBtm   b^\RTopsTop  b'_\LTopsBtm 
-    f4^\RThumbTop   e_\LThumbBtm  b'^\RTopsTop  b,_\LTopsBtm 
+    f4^\RThumbTop   e_\LThumbBtm  c'^\RTopsTop  b,_\LTopsBtm 
     \break
   }
 
@@ -22,7 +22,7 @@
     b8^\RThumbTop   e_\LThumbBtm  c'^\RTopsTop   b_\LTopsBtm 
     f8^\RThumbTop  b,_\LThumbBtm  c'^\RTopsTop   b_\LTopsBtm 
     f8^\RThumbTop   e_\LThumbBtm   b^\RTopsTop  b'_\LTopsBtm 
-    f8^\RThumbTop   e_\LThumbBtm  b'^\RTopsTop  b,_\LTopsBtm 
+    f8^\RThumbTop   e_\LThumbBtm  c'^\RTopsTop  b,_\LTopsBtm 
     \break
   }
 }

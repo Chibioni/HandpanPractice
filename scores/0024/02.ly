@@ -12,9 +12,9 @@
 
   \repeat unfold 4 { 
     f'4^\RThumbTop-> e_\LThumbBtm   c'^\RTopsTop   b_\LTopsBtm  
-    f4^\RThumbTop   e_\LThumbBtm-> c'^\RTopsTop   b_\LTopsBtm   
-    f4^\RThumbTop   e_\LThumbBtm   c'^\RTopsTop-> b_\LTopsBtm   
-    f4^\RThumbTop   e_\LThumbBtm   c'^\RTopsTop   b_\LTopsBtm-> 
+    f4^\RThumbTop    e_\LThumbBtm-> c'^\RTopsTop   b_\LTopsBtm   
+    f4^\RThumbTop    e_\LThumbBtm   c'^\RTopsTop-> b_\LTopsBtm   
+    f4^\RThumbTop    e_\LThumbBtm   c'^\RTopsTop   b_\LTopsBtm-> 
     \break
   }
 
