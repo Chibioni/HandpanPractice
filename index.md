@@ -92,6 +92,39 @@ title  : ハンドパントレーニング
         * [トーンフィールドとDing04]({{site.github.url}}{% link _pages/0025/04.md %})
         * [トーンフィールドとDing(高速)04]({{site.github.url}}{% link _pages/0026/04.md %})
 
+休符移動
+: * [休符移動応用(複合)01]({{site.github.com}}{% link _pages/0036/01.md %})
+  * [休符移動応用(複合)02]({{site.github.com}}{% link _pages/0036/02.md %})
+  * [休符移動応用(複合)03]({{site.github.com}}{% link _pages/0036/03.md %})
+  * [休符移動応用(複合)04]({{site.github.com}}{% link _pages/0036/04.md %})
+  
+  難しい時の練習
+  : * [休符移動応用01]({{site.github.com}}{% link _pages/0034/01.md %})
+    * [休符移動応用(高速)01]({{site.github.com}}{% link _pages/0035/01.md %})
+    * [休符移動応用02]({{site.github.com}}{% link _pages/0034/02.md %})
+    * [休符移動応用(高速)02]({{site.github.com}}{% link _pages/0035/02.md %})
+    * [休符移動応用03]({{site.github.com}}{% link _pages/0034/03.md %})
+    * [休符移動応用(高速)03]({{site.github.com}}{% link _pages/0035/03.md %})
+    * [休符移動応用04]({{site.github.com}}{% link _pages/0034/04.md %})
+    * [休符移動応用(高速)04]({{site.github.com}}{% link _pages/0035/04.md %})
+
+    難しい時の練習
+    : * [休符移動複合01]({{site.github.com}}{% link _pages/0033/01.md %})
+      * [休符移動複合02]({{site.github.com}}{% link _pages/0033/02.md %})
+      * [休符移動複合03]({{site.github.com}}{% link _pages/0033/03.md %})
+      * [休符移動複合04]({{site.github.com}}{% link _pages/0033/04.md %})
+
+      難しい時の練習
+      : * [休符移動01]({{site.github.com}}{% link _pages/0031/01.md %})
+        * [休符移動(高速)01]({{site.github.com}}{% link _pages/0032/01.md %})
+        * [休符移動02]({{site.github.com}}{% link _pages/0031/02.md %})
+        * [休符移動(高速)02]({{site.github.com}}{% link _pages/0032/02.md %})
+        * [休符移動03]({{site.github.com}}{% link _pages/0031/03.md %})
+        * [休符移動(高速)03]({{site.github.com}}{% link _pages/0032/03.md %})
+        * [休符移動04]({{site.github.com}}{% link _pages/0031/04.md %})
+        * [休符移動(高速)04]({{site.github.com}}{% link _pages/0032/04.md %})
+
+
 リムを叩く
 : * [リム応用(複合)01]({{site.github.url}}{% link _pages/0011/01.md %})
   * [リム応用(複合)02]({{site.github.url}}{% link _pages/0011/02.md %})
