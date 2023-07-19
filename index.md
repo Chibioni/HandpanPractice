@@ -130,6 +130,16 @@ title  : ハンドパントレーニング
 
 {% capture contents %}
 
+Topsの練習
+: * [Topsの練習01]({{site.github.url}}{% link _pages/0037/01.md %})
+  * [Topsの練習02]({{site.github.url}}{% link _pages/0037/02.md %})
+
+{% endcapture %}
+{% assign contents = contents | markdownify %}
+{% include menu2column.html contents=contents %}
+
+{% capture contents %}
+
 リムを叩く
 : * [リム応用(複合)01]({{site.github.url}}{% link _pages/0011/01.md %})
   * [リム応用(複合)02]({{site.github.url}}{% link _pages/0011/02.md %})
