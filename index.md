@@ -134,6 +134,17 @@ Topsの練習
 : * [Topsの練習01]({{site.github.url}}{% link _pages/0037/01.md %})
   * [Topsの練習02]({{site.github.url}}{% link _pages/0037/02.md %})
 
+
+Top-Thumb連続
+: * [Top-Thumb連続(複合)01]({{site.github.url}}{% link _pages/0040/01.md %})
+  * [Top-Thumb連続(複合)02]({{site.github.url}}{% link _pages/0040/02.md %})
+  
+  難しい時の練習
+  : * [Top-Thumb連続01]({{site.github.url}}{% link _pages/0038/01.md %})
+    * [Top-Thumb連続(高速)01]({{site.github.url}}{% link _pages/0039/01.md %})
+    * [Top-Thumb連続02]({{site.github.url}}{% link _pages/0038/02.md %})
+    * [Top-Thumb連続(高速)02]({{site.github.url}}{% link _pages/0039/02.md %})
+
 {% endcapture %}
 {% assign contents = contents | markdownify %}
 {% include menu2column.html contents=contents %}
