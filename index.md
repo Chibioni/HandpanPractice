@@ -29,36 +29,36 @@ title  : ハンドパントレーニング
 
 {% capture contents %}
 アクセント移動
-: * [アクセント移動応用(複合)01]({{site.github.com}}{% link _pages/0024/01.md %})
-  * [アクセント移動応用(複合)02]({{site.github.com}}{% link _pages/0024/02.md %})
-  * [アクセント移動応用(複合)03]({{site.github.com}}{% link _pages/0024/03.md %})
-  * [アクセント移動応用(複合)04]({{site.github.com}}{% link _pages/0024/04.md %})
+: * [アクセント移動応用(複合)01]({{site.github.url}}{% link _pages/0024/01.md %})
+  * [アクセント移動応用(複合)02]({{site.github.url}}{% link _pages/0024/02.md %})
+  * [アクセント移動応用(複合)03]({{site.github.url}}{% link _pages/0024/03.md %})
+  * [アクセント移動応用(複合)04]({{site.github.url}}{% link _pages/0024/04.md %})
   
   難しい時の練習
-  : * [アクセント移動応用01]({{site.github.com}}{% link _pages/0022/01.md %})
-    * [アクセント移動応用(高速)01]({{site.github.com}}{% link _pages/0023/01.md %})
-    * [アクセント移動応用02]({{site.github.com}}{% link _pages/0022/02.md %})
-    * [アクセント移動応用(高速)02]({{site.github.com}}{% link _pages/0023/02.md %})
-    * [アクセント移動応用03]({{site.github.com}}{% link _pages/0022/03.md %})
-    * [アクセント移動応用(高速)03]({{site.github.com}}{% link _pages/0023/03.md %})
-    * [アクセント移動応用04]({{site.github.com}}{% link _pages/0022/04.md %})
-    * [アクセント移動応用(高速)04]({{site.github.com}}{% link _pages/0023/04.md %})
+  : * [アクセント移動応用01]({{site.github.url}}{% link _pages/0022/01.md %})
+    * [アクセント移動応用(高速)01]({{site.github.url}}{% link _pages/0023/01.md %})
+    * [アクセント移動応用02]({{site.github.url}}{% link _pages/0022/02.md %})
+    * [アクセント移動応用(高速)02]({{site.github.url}}{% link _pages/0023/02.md %})
+    * [アクセント移動応用03]({{site.github.url}}{% link _pages/0022/03.md %})
+    * [アクセント移動応用(高速)03]({{site.github.url}}{% link _pages/0023/03.md %})
+    * [アクセント移動応用04]({{site.github.url}}{% link _pages/0022/04.md %})
+    * [アクセント移動応用(高速)04]({{site.github.url}}{% link _pages/0023/04.md %})
 
     難しい時の練習
-    : * [アクセント移動複合01]({{site.github.com}}{% link _pages/0021/01.md %})
-      * [アクセント移動複合02]({{site.github.com}}{% link _pages/0021/02.md %})
-      * [アクセント移動複合03]({{site.github.com}}{% link _pages/0021/03.md %})
-      * [アクセント移動複合04]({{site.github.com}}{% link _pages/0021/04.md %})
+    : * [アクセント移動複合01]({{site.github.url}}{% link _pages/0021/01.md %})
+      * [アクセント移動複合02]({{site.github.url}}{% link _pages/0021/02.md %})
+      * [アクセント移動複合03]({{site.github.url}}{% link _pages/0021/03.md %})
+      * [アクセント移動複合04]({{site.github.url}}{% link _pages/0021/04.md %})
 
       難しい時の練習
-      : * [アクセント移動01]({{site.github.com}}{% link _pages/0019/01.md %})
-        * [アクセント移動(高速)01]({{site.github.com}}{% link _pages/0020/01.md %})
-        * [アクセント移動02]({{site.github.com}}{% link _pages/0019/02.md %})
-        * [アクセント移動(高速)02]({{site.github.com}}{% link _pages/0020/02.md %})
-        * [アクセント移動03]({{site.github.com}}{% link _pages/0019/03.md %})
-        * [アクセント移動(高速)03]({{site.github.com}}{% link _pages/0020/03.md %})
-        * [アクセント移動04]({{site.github.com}}{% link _pages/0019/04.md %})
-        * [アクセント移動(高速)04]({{site.github.com}}{% link _pages/0020/04.md %})
+      : * [アクセント移動01]({{site.github.url}}{% link _pages/0019/01.md %})
+        * [アクセント移動(高速)01]({{site.github.url}}{% link _pages/0020/01.md %})
+        * [アクセント移動02]({{site.github.url}}{% link _pages/0019/02.md %})
+        * [アクセント移動(高速)02]({{site.github.url}}{% link _pages/0020/02.md %})
+        * [アクセント移動03]({{site.github.url}}{% link _pages/0019/03.md %})
+        * [アクセント移動(高速)03]({{site.github.url}}{% link _pages/0020/03.md %})
+        * [アクセント移動04]({{site.github.url}}{% link _pages/0019/04.md %})
+        * [アクセント移動(高速)04]({{site.github.url}}{% link _pages/0020/04.md %})
 
 トーンフィールドとDing
 : * [トーンフィールドとDing応用(複合)01]({{site.github.url}}{% link _pages/0030/01.md %})
@@ -93,36 +93,36 @@ title  : ハンドパントレーニング
         * [トーンフィールドとDing(高速)04]({{site.github.url}}{% link _pages/0026/04.md %})
 
 休符移動
-: * [休符移動応用(複合)01]({{site.github.com}}{% link _pages/0036/01.md %})
-  * [休符移動応用(複合)02]({{site.github.com}}{% link _pages/0036/02.md %})
-  * [休符移動応用(複合)03]({{site.github.com}}{% link _pages/0036/03.md %})
-  * [休符移動応用(複合)04]({{site.github.com}}{% link _pages/0036/04.md %})
+: * [休符移動応用(複合)01]({{site.github.url}}{% link _pages/0036/01.md %})
+  * [休符移動応用(複合)02]({{site.github.url}}{% link _pages/0036/02.md %})
+  * [休符移動応用(複合)03]({{site.github.url}}{% link _pages/0036/03.md %})
+  * [休符移動応用(複合)04]({{site.github.url}}{% link _pages/0036/04.md %})
   
   難しい時の練習
-  : * [休符移動応用01]({{site.github.com}}{% link _pages/0034/01.md %})
-    * [休符移動応用(高速)01]({{site.github.com}}{% link _pages/0035/01.md %})
-    * [休符移動応用02]({{site.github.com}}{% link _pages/0034/02.md %})
-    * [休符移動応用(高速)02]({{site.github.com}}{% link _pages/0035/02.md %})
-    * [休符移動応用03]({{site.github.com}}{% link _pages/0034/03.md %})
-    * [休符移動応用(高速)03]({{site.github.com}}{% link _pages/0035/03.md %})
-    * [休符移動応用04]({{site.github.com}}{% link _pages/0034/04.md %})
-    * [休符移動応用(高速)04]({{site.github.com}}{% link _pages/0035/04.md %})
+  : * [休符移動応用01]({{site.github.url}}{% link _pages/0034/01.md %})
+    * [休符移動応用(高速)01]({{site.github.url}}{% link _pages/0035/01.md %})
+    * [休符移動応用02]({{site.github.url}}{% link _pages/0034/02.md %})
+    * [休符移動応用(高速)02]({{site.github.url}}{% link _pages/0035/02.md %})
+    * [休符移動応用03]({{site.github.url}}{% link _pages/0034/03.md %})
+    * [休符移動応用(高速)03]({{site.github.url}}{% link _pages/0035/03.md %})
+    * [休符移動応用04]({{site.github.url}}{% link _pages/0034/04.md %})
+    * [休符移動応用(高速)04]({{site.github.url}}{% link _pages/0035/04.md %})
 
     難しい時の練習
-    : * [休符移動複合01]({{site.github.com}}{% link _pages/0033/01.md %})
-      * [休符移動複合02]({{site.github.com}}{% link _pages/0033/02.md %})
-      * [休符移動複合03]({{site.github.com}}{% link _pages/0033/03.md %})
-      * [休符移動複合04]({{site.github.com}}{% link _pages/0033/04.md %})
+    : * [休符移動複合01]({{site.github.url}}{% link _pages/0033/01.md %})
+      * [休符移動複合02]({{site.github.url}}{% link _pages/0033/02.md %})
+      * [休符移動複合03]({{site.github.url}}{% link _pages/0033/03.md %})
+      * [休符移動複合04]({{site.github.url}}{% link _pages/0033/04.md %})
 
       難しい時の練習
-      : * [休符移動01]({{site.github.com}}{% link _pages/0031/01.md %})
-        * [休符移動(高速)01]({{site.github.com}}{% link _pages/0032/01.md %})
-        * [休符移動02]({{site.github.com}}{% link _pages/0031/02.md %})
-        * [休符移動(高速)02]({{site.github.com}}{% link _pages/0032/02.md %})
-        * [休符移動03]({{site.github.com}}{% link _pages/0031/03.md %})
-        * [休符移動(高速)03]({{site.github.com}}{% link _pages/0032/03.md %})
-        * [休符移動04]({{site.github.com}}{% link _pages/0031/04.md %})
-        * [休符移動(高速)04]({{site.github.com}}{% link _pages/0032/04.md %})
+      : * [休符移動01]({{site.github.url}}{% link _pages/0031/01.md %})
+        * [休符移動(高速)01]({{site.github.url}}{% link _pages/0032/01.md %})
+        * [休符移動02]({{site.github.url}}{% link _pages/0031/02.md %})
+        * [休符移動(高速)02]({{site.github.url}}{% link _pages/0032/02.md %})
+        * [休符移動03]({{site.github.url}}{% link _pages/0031/03.md %})
+        * [休符移動(高速)03]({{site.github.url}}{% link _pages/0032/03.md %})
+        * [休符移動04]({{site.github.url}}{% link _pages/0031/04.md %})
+        * [休符移動(高速)04]({{site.github.url}}{% link _pages/0032/04.md %})
 
 {% endcapture %}
 {% assign contents = contents | markdownify %}
@@ -195,36 +195,36 @@ title  : ハンドパントレーニング
         * [リムとDing(高速)04]({{site.github.url}}{% link _pages/0004/04.md %})
 
 リムとトーンフィールド
-: * [リムとトーンフィールド応用(複合)01]({{site.github.com}}{% link _pages/0018/01.md %})
-  * [リムとトーンフィールド応用(複合)02]({{site.github.com}}{% link _pages/0018/02.md %})
-  * [リムとトーンフィールド応用(複合)03]({{site.github.com}}{% link _pages/0018/03.md %})
-  * [リムとトーンフィールド応用(複合)04]({{site.github.com}}{% link _pages/0018/04.md %})
+: * [リムとトーンフィールド応用(複合)01]({{site.github.url}}{% link _pages/0018/01.md %})
+  * [リムとトーンフィールド応用(複合)02]({{site.github.url}}{% link _pages/0018/02.md %})
+  * [リムとトーンフィールド応用(複合)03]({{site.github.url}}{% link _pages/0018/03.md %})
+  * [リムとトーンフィールド応用(複合)04]({{site.github.url}}{% link _pages/0018/04.md %})
   
   難しい時の練習
-  : * [リムとトーンフィールド応用01]({{site.github.com}}{% link _pages/0016/01.md %})
-    * [リムとトーンフィールド応用(高速)01]({{site.github.com}}{% link _pages/0017/01.md %})
-    * [リムとトーンフィールド応用02]({{site.github.com}}{% link _pages/0016/02.md %})
-    * [リムとトーンフィールド応用(高速)02]({{site.github.com}}{% link _pages/0017/02.md %})
-    * [リムとトーンフィールド応用03]({{site.github.com}}{% link _pages/0016/03.md %})
-    * [リムとトーンフィールド応用(高速)03]({{site.github.com}}{% link _pages/0017/03.md %})
-    * [リムとトーンフィールド応用04]({{site.github.com}}{% link _pages/0016/04.md %})
-    * [リムとトーンフィールド応用(高速)04]({{site.github.com}}{% link _pages/0017/04.md %})
+  : * [リムとトーンフィールド応用01]({{site.github.url}}{% link _pages/0016/01.md %})
+    * [リムとトーンフィールド応用(高速)01]({{site.github.url}}{% link _pages/0017/01.md %})
+    * [リムとトーンフィールド応用02]({{site.github.url}}{% link _pages/0016/02.md %})
+    * [リムとトーンフィールド応用(高速)02]({{site.github.url}}{% link _pages/0017/02.md %})
+    * [リムとトーンフィールド応用03]({{site.github.url}}{% link _pages/0016/03.md %})
+    * [リムとトーンフィールド応用(高速)03]({{site.github.url}}{% link _pages/0017/03.md %})
+    * [リムとトーンフィールド応用04]({{site.github.url}}{% link _pages/0016/04.md %})
+    * [リムとトーンフィールド応用(高速)04]({{site.github.url}}{% link _pages/0017/04.md %})
 
     難しい時の練習
-    : * [リムとトーンフィールド複合01]({{site.github.com}}{% link _pages/0015/01.md %})
-      * [リムとトーンフィールド複合02]({{site.github.com}}{% link _pages/0015/02.md %})
-      * [リムとトーンフィールド複合03]({{site.github.com}}{% link _pages/0015/03.md %})
-      * [リムとトーンフィールド複合04]({{site.github.com}}{% link _pages/0015/04.md %})
+    : * [リムとトーンフィールド複合01]({{site.github.url}}{% link _pages/0015/01.md %})
+      * [リムとトーンフィールド複合02]({{site.github.url}}{% link _pages/0015/02.md %})
+      * [リムとトーンフィールド複合03]({{site.github.url}}{% link _pages/0015/03.md %})
+      * [リムとトーンフィールド複合04]({{site.github.url}}{% link _pages/0015/04.md %})
 
       難しい時の練習
-      : * [リムとトーンフィールド01]({{site.github.com}}{% link _pages/0013/01.md %})
-        * [リムとトーンフィールド(高速)01]({{site.github.com}}{% link _pages/0014/01.md %})
-        * [リムとトーンフィールド02]({{site.github.com}}{% link _pages/0013/02.md %})
-        * [リムとトーンフィールド(高速)02]({{site.github.com}}{% link _pages/0014/02.md %})
-        * [リムとトーンフィールド03]({{site.github.com}}{% link _pages/0013/03.md %})
-        * [リムとトーンフィールド(高速)03]({{site.github.com}}{% link _pages/0014/03.md %})
-        * [リムとトーンフィールド04]({{site.github.com}}{% link _pages/0013/04.md %})
-        * [リムとトーンフィールド(高速)04]({{site.github.com}}{% link _pages/0014/04.md %})
+      : * [リムとトーンフィールド01]({{site.github.url}}{% link _pages/0013/01.md %})
+        * [リムとトーンフィールド(高速)01]({{site.github.url}}{% link _pages/0014/01.md %})
+        * [リムとトーンフィールド02]({{site.github.url}}{% link _pages/0013/02.md %})
+        * [リムとトーンフィールド(高速)02]({{site.github.url}}{% link _pages/0014/02.md %})
+        * [リムとトーンフィールド03]({{site.github.url}}{% link _pages/0013/03.md %})
+        * [リムとトーンフィールド(高速)03]({{site.github.url}}{% link _pages/0014/03.md %})
+        * [リムとトーンフィールド04]({{site.github.url}}{% link _pages/0013/04.md %})
+        * [リムとトーンフィールド(高速)04]({{site.github.url}}{% link _pages/0014/04.md %})
 
 
 {% endcapture %}
