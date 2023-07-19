@@ -32,4 +32,4 @@ sass:
 collections:
   pages:
     output: true
-    permalink: /:path
+    permalink: /:path:output_ext
