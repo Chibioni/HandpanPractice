@@ -37,3 +37,7 @@ RThumbBtm = \markup { R \sub Thumb }
 LTopsBtm  = \markup { L \sub Tops  }
 RTopsBtm  = \markup { R \sub Tops  }
 
+LBothTop = \markup { \lower #3.0 L \column { \lower #1 \teeny Tops \teeny Thumb } }
+LBothBtm = \markup { \lower #1.5 L \column { \lower #1 \teeny Tops \teeny Thumb } }
+RBothTop = \markup { \lower #3.0 R \column { \lower #1 \teeny Tops \teeny Thumb } }
+RBothBtm = \markup { \lower #1.5 R \column { \lower #1 \teeny Tops \teeny Thumb } }
