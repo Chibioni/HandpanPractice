@@ -12,12 +12,10 @@ description : "このWebサイトで記載しているハンドパン練習楽�
 
 {% capture urls %}
 {{ site.github.url }}{% link _pages/0000/images/layout1.svg %}
-{{ site.github.url }}{% link _pages/0000/images/layout2.svg %}
 {% endcapture %}
 
 {% capture captions %}
 レイアウト1
-レイアウト2
 {% endcapture %}
 
 {% assign urls     = urls     | strip | newline_to_br | split : "<br />"  %}
