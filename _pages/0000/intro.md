@@ -10,22 +10,21 @@ description : "このWebサイトで記載しているハンドパン練習楽�
 {% assign caption = '' | markdownify %}
 {% include thumbnail.html url=url caption=caption %}
 
-{% capture urls %}
-{{ site.github.url }}{% link _pages/0000/images/layout1.svg %}
-{% endcapture %}
+{% capture url %}{{ site.github.url }}{% link _pages/0000/images/layout1.svg %}{% endcapture %}
+{% assign caption = 'レイアウト1' | markdownify %}
+{% include thumbnail.html url=url caption=caption %}
 
-{% capture captions %}
-レイアウト1
-{% endcapture %}
-
-{% assign urls     = urls     | strip | newline_to_br | split : "<br />"  %}
-{% assign captions = captions | strip | newline_to_br | split : "<br />"  %}
-
-{% include thumbnails.html urls=urls captions=captions %}
 
 このサイトで記述する楽譜とハンドパンの打面の対応表です。
 一般的なハンドパンの構成であれば、一番手前側に低音が来る配置の時、叩く音が上がると譜面上叩く音も上がるようになるはずです。
 手前に低音でない方向から構える場合、ハンドパンと譜面の音程に差が生じますが、対応できなくはないはずです。
+
+{% capture url %}{{ site.github.url }}{% link _pages/0000/images/layout2.svg %}{% endcapture %}
+{% assign caption = 'レイアウト2' | markdownify %}
+{% include thumbnail.html url=url caption=caption %}
+
+このレイアウトで叩で叩けなくもないですが、叩きにくい楽譜もあると思います。
+逆に、このレイアウトで叩く練習楽譜は都度その旨を記述します。
 
 `R1...R4` は打面ではない部分です。これらを叩く時の印は `3`, `4`, `7`, `8`のところに `x` の音符で記述します。
 打面でない部分を拳で叩く場合の印を `o` に `x` の音符で記述します。
