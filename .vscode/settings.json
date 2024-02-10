@@ -1,0 +1,13 @@
+{
+    "liveServer.settings.root" : "/_site"
+  , "files.exclude" : {
+        "/.git" : true
+      , "/.DS_Store" : true
+    }
+  , "search.exclude": {
+        "/_site" : true
+    }
+  , "files.watcherExclude": {
+        "/_site" : true
+    }
+}
