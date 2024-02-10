@@ -1,0 +1,73 @@
+{
+    "keyboard" : [
+        { "key" : "C"    , "type" : 0 }
+      , { "key" : "C#/Db", "type" : 1 }
+      , { "key" : "D"    , "type" : 0 }
+      , { "key" : "D#/Eb", "type" : 1 }
+      , { "key" : "E"    , "type" : 0 }
+      , { "key" : "F"    , "type" : 0 }
+      , { "key" : "F#/Gb", "type" : 1 }
+      , { "key" : "G"    , "type" : 0 }
+      , { "key" : "G#/Ab", "type" : 1 }
+      , { "key" : "A"    , "type" : 0 }
+      , { "key" : "A#/Bb", "type" : 1 }
+      , { "key" : "B"    , "type" : 0 }
+    ]
+  , "majorScaleName" : [
+        { "major" : "C"    , "minor" : "A"    , "index" :  0, "order" :  0}
+      , { "major" : "Db"   , "minor" : "Bb"   , "index" :  1, "order" :  7}
+      , { "major" : "D"    , "minor" : "B"    , "index" :  2, "order" :  2}
+      , { "major" : "Eb"   , "minor" : "C"    , "index" :  3, "order" :  9}
+      , { "major" : "E"    , "minor" : "C#"   , "index" :  4, "order" :  4}
+      , { "major" : "F"    , "minor" : "D"    , "index" :  5, "order" : 11}
+      , { "major" : "F#/Gb", "minor" : "Eb/D#", "index" :  6, "order" :  6}
+      , { "major" : "G"    , "minor" : "E"    , "index" :  7, "order" :  1}
+      , { "major" : "Ab"   , "minor" : "F"    , "index" :  8, "order" :  8}
+      , { "major" : "A"    , "minor" : "F#"   , "index" :  9, "order" :  3}
+      , { "major" : "Bb"   , "minor" : "G"    , "index" : 10, "order" : 10}
+      , { "major" : "B"    , "minor" : "G#"   , "index" : 11, "order" :  5}
+    ]
+  , "majorScale" : [
+        { "index" :  0, "type" : 1 }
+      , { "index" :  2, "type" : 0 }
+      , { "index" :  4, "type" : 0 }
+      , { "index" :  5, "type" : 0 }
+      , { "index" :  7, "type" : 0 }
+      , { "index" :  9, "type" : 2 }
+      , { "index" : 11, "type" : 0 }
+    ]
+  , "harmonicMinorScale" : [
+        { "index" :  0, "type" : 1 }
+      , { "index" :  2, "type" : 0 }
+      , { "index" :  3, "type" : 0 }
+      , { "index" :  5, "type" : 0 }
+      , { "index" :  7, "type" : 0 }
+      , { "index" :  8, "type" : 0 }
+      , { "index" : 11, "type" : 0 }
+  ]
+  , "melodicMinorScale" : [
+        { "index" :  0, "type" : 1 }
+      , { "index" :  2, "type" : 0 }
+      , { "index" :  3, "type" : 0 }
+      , { "index" :  5, "type" : 0 }
+      , { "index" :  7, "type" : 0 }
+      , { "index" :  9, "type" : 0 }
+      , { "index" : 11, "type" : 0 }
+  ]
+  , "circleOfFifthOrder" : [
+        { "key" : "C"    , "order" :  0 }
+      , { "key" : "C#/Db", "order" :  7 }
+      , { "key" : "D"    , "order" :  2 }
+      , { "key" : "D#/Eb", "order" :  9 }
+      , { "key" : "E"    , "order" :  4 }
+      , { "key" : "F"    , "order" : 11 }
+      , { "key" : "F#/Gb", "order" :  6 }
+      , { "key" : "G"    , "order" :  1 }
+      , { "key" : "G#/Ab", "order" :  8 }
+      , { "key" : "A"    , "order" :  3 }
+      , { "key" : "A#/Bb", "order" : 10 }
+      , { "key" : "B"    , "order" :  5 }
+  ]
+
+
+}

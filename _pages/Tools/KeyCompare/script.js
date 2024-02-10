@@ -1,41 +1,31 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+import Keyboard from "./Keyboard.js";
 
 (async () => {
-  const keys = await d3.json("./Keys.json");
-  const svg = d3.select("#ui")
+  const data = await d3.json("./data.json");
+  const svg = d3.select("#display")
                 .append("svg")
                 .attr("id", "canvas");
+  
+  const keyboard = new Keyboard(svg, data.keyboard);
 
-  const keyWidth  = 30;
-  const keyHeight = 100;
+  const pulldown1 = d3.select("#pulldown1");
 
-  svg.selectAll("rect")
-     .data(keys)
-     .enter()
-     .append("rect")
-     .attr("x", (d, i) => i * keyWidth)
-     .attr("y", 0)
-     .attr("width", keyWidth)
-     .attr("height", keyHeight)
-     .attr("fill", (d) => d.type ? "black" : "white" )
-     .attr("stroke", "black")
-     .attr("stroke-width", "1");
+  const sortedMajorScaleName = data.majorScaleName.sort((a, b) => a.order - b.order )
 
-  const textMarginTop = 10;
-  const textMarginLeft = 10;
+  pulldown1.selectAll("option")
+           .data(sortedMajorScaleName)
+           .enter()
+           .append("option")
+           .text((d) => d.major + " major/" + d.minor + " minor")
+           .attr("value", (d) => d.index);
+  
+  pulldown1.on("change", (e) => console.log(e));
 
-  svg.selectAll("text")
-     .data(keys)
-     .enter()
-     .append("text")
-     .text((d) => d.key)
-     .attr("transform", (d, i) => 
-        transformTranslate(i * keyWidth + textMarginLeft, textMarginTop) + "," + transformRotation(90) 
-      )
-     .attr("fill", (d) => d.type ? "white" : "black" );
+                       
 
 })();
-
+/*
 function transformRotation(degree){
   return "rotate(" + parseFloat(degree) + ")";
 }
@@ -43,3 +33,4 @@ function transformRotation(degree){
 function transformTranslate(x = 0, y = 0){
   return "translate(" + parseInt(x) + "," + parseInt(y) + ")";
 }
+*/

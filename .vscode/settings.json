@@ -10,4 +10,5 @@
   , "files.watcherExclude": {
         "/_site" : true
     }
+  , "search.followSymlinks": false
 }

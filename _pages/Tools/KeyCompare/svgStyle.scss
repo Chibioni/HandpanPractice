@@ -1,0 +1,29 @@
+---
+---
+@charset "utf-8";
+@import "variables";
+
+svg#canvas {
+  width : 100%;
+}
+
+svg#canvas #keyboard rect {
+  stroke : $gray;
+  stroke-width: 1pt;
+
+  &.white {
+    fill : $gray-lightest;
+  }
+  &.black {
+    fill : $gray;
+  }
+}
+
+svg#canvas #keyboard text {
+  &.white {
+    fill : $gray-lightest;
+  }
+  &.black {
+    fill : $gray;
+  }
+}

@@ -1,62 +1,62 @@
 ---
 ---
-
-// Colors
+//// Colors
+////
+//// Grayscale and brand colors for use across Bootstrap.
+//// Start with assigning color names to specific hex values.
+//$gray-dark       : #333333; //K 80%
+//$gray            : #666666; //K 60%
+//$gray-light      : #999999; //K 40%
+//$gray-lighter    : #cccccc; //K 20%
+//$gray-lightest   : #f3f3f3; //K 5%
+//$gray-ultralight : #f8f8f8; //K 3%
 //
-// Grayscale and brand colors for use across Bootstrap.
-// Start with assigning color names to specific hex values.
-
-$gray-dark       : #333333; //K 80%
-$gray            : #666666; //K 60%
-$gray-light      : #999999; //K 40%
-$gray-lighter    : #cccccc; //K 20%
-$gray-lightest   : #f3f3f3; //K 5%
-$gray-ultralight : #f8f8f8; //K 3%
-
-$white  : #fff;
-$black  : #000;
-$blue   : #2996cc; //base H200 S80 V80
-$teal   : #29CCB1;
-$green  : #29CC5F;
-$yellow : #CCB129;
-$orange : #CC5F29;
-$red    : #CC2944;
-$pink   : #CC2996;
-$purple : #B129CC;
-
-// Body
+//$white  : #fff;
+//$black  : #000;
+//$blue   : #2996cc; //base H200 S80 V80
+//$teal   : #29CCB1;
+//$green  : #29CC5F;
+//$yellow : #CCB129;
+//$orange : #CC5F29;
+//$red    : #CC2944;
+//$pink   : #CC2996;
+//$purple : #B129CC;
 //
-// Settings for the `<body>` element.
-
-$body-bg    : $gray-ultralight;
-$body-color : $gray-dark;
-
-$inverse-bg    : $gray-ultralight;
-$inverse-color : $gray-dark;
-
-// Links
+//// Body
+////
+//// Settings for the `<body>` element.
 //
-// Style anchor elements.
-$link-hover-color: $teal;
-
-
-// Fonts
+//$body-bg    : $gray-ultralight;
+//$body-color : $gray-dark;
 //
-// Font, line-height, and color for body text, headings, and more.
-$line-height-base     : 1.55;
-$headings-line-height : $line-height-base;
-$blockquote-font-size : 1rem;
-$letter-spacing       : 0.01rem;
+//$inverse-bg    : $gray-ultralight;
+//$inverse-color : $gray-dark;
+//
+//// Links
+////
+//// Style anchor elements.
+//$link-hover-color: $teal;
+//
+//
+//// Fonts
+////
+//// Font, line-height, and color for body text, headings, and more.
+//$line-height-base     : 1.55;
+//$headings-line-height : $line-height-base;
+//$blockquote-font-size : 1rem;
+//$letter-spacing       : 0.01rem;
+//
+//// Jumbotron
+//$jumbotron-bg : $gray-ultralight;
+//
+//// Cards
+//$card-bg : $gray-ultralight;
+//
+//// Code
+//$code-color : $orange;
+////$code-bg    : $gray-lightest;
 
-// Jumbotron
-$jumbotron-bg : $gray-ultralight;
-
-// Cards
-$card-bg : $gray-ultralight;
-
-// Code
-$code-color : $orange;
-//$code-bg    : $gray-lightest;
+@import "variables";
 
 
 //import bootstrap
