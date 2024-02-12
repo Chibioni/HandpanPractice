@@ -14,45 +14,96 @@
       , { "key" : "B"    , "type" : 0 }
     ]
   , "majorScaleName" : [
-        { "major" : "C"    , "minor" : "A"    , "index" :  0, "order" :  0}
-      , { "major" : "Db"   , "minor" : "Bb"   , "index" :  1, "order" :  7}
-      , { "major" : "D"    , "minor" : "B"    , "index" :  2, "order" :  2}
-      , { "major" : "Eb"   , "minor" : "C"    , "index" :  3, "order" :  9}
-      , { "major" : "E"    , "minor" : "C#"   , "index" :  4, "order" :  4}
-      , { "major" : "F"    , "minor" : "D"    , "index" :  5, "order" : 11}
-      , { "major" : "F#/Gb", "minor" : "Eb/D#", "index" :  6, "order" :  6}
-      , { "major" : "G"    , "minor" : "E"    , "index" :  7, "order" :  1}
-      , { "major" : "Ab"   , "minor" : "F"    , "index" :  8, "order" :  8}
-      , { "major" : "A"    , "minor" : "F#"   , "index" :  9, "order" :  3}
-      , { "major" : "Bb"   , "minor" : "G"    , "index" : 10, "order" : 10}
-      , { "major" : "B"    , "minor" : "G#"   , "index" : 11, "order" :  5}
+        { "key" : "C      major", "index" : "majorScale_0" , "order" :  0}
+      , { "key" : "Db     major", "index" : "majorScale_1" , "order" :  7}
+      , { "key" : "D      major", "index" : "majorScale_2" , "order" :  2}
+      , { "key" : "Eb     major", "index" : "majorScale_3" , "order" :  9}
+      , { "key" : "E      major", "index" : "majorScale_4" , "order" :  4}
+      , { "key" : "F      major", "index" : "majorScale_5" , "order" : 11}
+      , { "key" : "F#(Gb) major", "index" : "majorScale_6" , "order" :  6}
+      , { "key" : "G      major", "index" : "majorScale_7" , "order" :  1}
+      , { "key" : "Ab     major", "index" : "majorScale_8" , "order" :  8}
+      , { "key" : "A      major", "index" : "majorScale_9" , "order" :  3}
+      , { "key" : "Bb     major", "index" : "majorScale_10", "order" : 10}
+      , { "key" : "B      major", "index" : "majorScale_11", "order" :  5}
     ]
+  , "minorScaleName" : [
+        { "key" : "A      minor", "index" : "minorScale_9" , "order" :  0}
+      , { "key" : "Bb     minor", "index" : "minorScale_10", "order" :  7}
+      , { "key" : "B      minor", "index" : "minorScale_11", "order" :  2}
+      , { "key" : "C      minor", "index" : "minorScale_0" , "order" :  9}
+      , { "key" : "C#     minor", "index" : "minorScale_1" , "order" :  4}
+      , { "key" : "D      minor", "index" : "minorScale_2" , "order" : 11}
+      , { "key" : "Eb(D#) minor", "index" : "minorScale_3" , "order" :  6}
+      , { "key" : "E      minor", "index" : "minorScale_4" , "order" :  1}
+      , { "key" : "F      minor", "index" : "minorScale_5" , "order" :  8}
+      , { "key" : "F#     minor", "index" : "minorScale_6" , "order" :  3}
+      , { "key" : "G      minor", "index" : "minorScale_7" , "order" : 10}
+      , { "key" : "G#     minor", "index" : "minorScale_8" , "order" :  5}
+  ]
+  , "harmonicMinorScaleName" : [
+        { "key" : "A      harmonic minor", "index" : "harmonicMinorScale_9" , "order" :  0}
+      , { "key" : "Bb     harmonic minor", "index" : "harmonicMinorScale_10", "order" :  7}
+      , { "key" : "B      harmonic minor", "index" : "harmonicMinorScale_11", "order" :  2}
+      , { "key" : "C      harmonic minor", "index" : "harmonicMinorScale_0" , "order" :  9}
+      , { "key" : "C#     harmonic minor", "index" : "harmonicMinorScale_1" , "order" :  4}
+      , { "key" : "D      harmonic minor", "index" : "harmonicMinorScale_2" , "order" : 11}
+      , { "key" : "Eb(D#) harmonic minor", "index" : "harmonicMinorScale_3" , "order" :  6}
+      , { "key" : "E      harmonic minor", "index" : "harmonicMinorScale_4" , "order" :  1}
+      , { "key" : "F      harmonic minor", "index" : "harmonicMinorScale_5" , "order" :  8}
+      , { "key" : "F#     harmonic minor", "index" : "harmonicMinorScale_6" , "order" :  3}
+      , { "key" : "G      harmonic minor", "index" : "harmonicMinorScale_7" , "order" : 10}
+      , { "key" : "G#     harmonic minor", "index" : "harmonicMinorScale_8" , "order" :  5}
+  ]
+  , "melodicMinorScaleName" : [
+        { "key" : "A      melodic minor", "index" : "melodicMinorScale_9" , "order" :  0}
+      , { "key" : "Bb     melodic minor", "index" : "melodicMinorScale_10", "order" :  7}
+      , { "key" : "B      melodic minor", "index" : "melodicMinorScale_11", "order" :  2}
+      , { "key" : "C      melodic minor", "index" : "melodicMinorScale_0" , "order" :  9}
+      , { "key" : "C#     melodic minor", "index" : "melodicMinorScale_1" , "order" :  4}
+      , { "key" : "D      melodic minor", "index" : "melodicMinorScale_2" , "order" : 11}
+      , { "key" : "Eb(D#) melodic minor", "index" : "melodicMinorScale_3" , "order" :  6}
+      , { "key" : "E      melodic minor", "index" : "melodicMinorScale_4" , "order" :  1}
+      , { "key" : "F      melodic minor", "index" : "melodicMinorScale_5" , "order" :  8}
+      , { "key" : "F#     melodic minor", "index" : "melodicMinorScale_6" , "order" :  3}
+      , { "key" : "G      melodic minor", "index" : "melodicMinorScale_7" , "order" : 10}
+      , { "key" : "G#     melodic minor", "index" : "melodicMinorScale_8" , "order" :  5}
+  ]
   , "majorScale" : [
-        { "index" :  0, "type" : 1 }
-      , { "index" :  2, "type" : 0 }
-      , { "index" :  4, "type" : 0 }
-      , { "index" :  5, "type" : 0 }
-      , { "index" :  7, "type" : 0 }
-      , { "index" :  9, "type" : 2 }
-      , { "index" : 11, "type" : 0 }
+        { "id" : 0, "position" :  0, "type" : 1 }
+      , { "id" : 1, "position" :  2, "type" : 0 }
+      , { "id" : 2, "position" :  4, "type" : 0 }
+      , { "id" : 3, "position" :  5, "type" : 0 }
+      , { "id" : 4, "position" :  7, "type" : 0 }
+      , { "id" : 5, "position" :  9, "type" : 0 }
+      , { "id" : 6, "position" : 11, "type" : 0 }
+    ]
+  , "minorScale" : [
+        { "id" : 0, "position" :  0, "type" : 1 }
+      , { "id" : 1, "position" :  2, "type" : 0 }
+      , { "id" : 2, "position" :  3, "type" : 0 }
+      , { "id" : 3, "position" :  5, "type" : 0 }
+      , { "id" : 4, "position" :  7, "type" : 0 }
+      , { "id" : 5, "position" :  8, "type" : 0 }
+      , { "id" : 6, "position" : 10, "type" : 0 }
     ]
   , "harmonicMinorScale" : [
-        { "index" :  0, "type" : 1 }
-      , { "index" :  2, "type" : 0 }
-      , { "index" :  3, "type" : 0 }
-      , { "index" :  5, "type" : 0 }
-      , { "index" :  7, "type" : 0 }
-      , { "index" :  8, "type" : 0 }
-      , { "index" : 11, "type" : 0 }
+        { "id" : 0, "position" :  0, "type" : 1 }
+      , { "id" : 1, "position" :  2, "type" : 0 }
+      , { "id" : 2, "position" :  3, "type" : 0 }
+      , { "id" : 3, "position" :  5, "type" : 0 }
+      , { "id" : 4, "position" :  7, "type" : 0 }
+      , { "id" : 5, "position" :  8, "type" : 0 }
+      , { "id" : 6, "position" : 11, "type" : 0 }
   ]
   , "melodicMinorScale" : [
-        { "index" :  0, "type" : 1 }
-      , { "index" :  2, "type" : 0 }
-      , { "index" :  3, "type" : 0 }
-      , { "index" :  5, "type" : 0 }
-      , { "index" :  7, "type" : 0 }
-      , { "index" :  9, "type" : 0 }
-      , { "index" : 11, "type" : 0 }
+        { "id" : 0, "position" :  0, "type" : 1 }
+      , { "id" : 1, "position" :  2, "type" : 0 }
+      , { "id" : 2, "position" :  3, "type" : 0 }
+      , { "id" : 3, "position" :  5, "type" : 0 }
+      , { "id" : 4, "position" :  7, "type" : 0 }
+      , { "id" : 5, "position" :  9, "type" : 0 }
+      , { "id" : 6, "position" : 11, "type" : 0 }
   ]
   , "circleOfFifthOrder" : [
         { "key" : "C"    , "order" :  0 }

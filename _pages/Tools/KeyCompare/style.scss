@@ -1,0 +1,25 @@
+---
+---
+@charset "utf-8";
+@import "variables";
+@import "bootstrap/bootstrap";
+
+@include media-breakpoint-up(lg){
+  p {
+    &.top, &.bottom {
+      position : absolute;
+      right    : 0;
+    }
+    &.top{
+      top : 0;
+    }
+    &.bottom {
+      bottom : 0;
+    }
+  }
+
+  #selector1, #selector2 {
+    position : relative;
+  }
+}
+

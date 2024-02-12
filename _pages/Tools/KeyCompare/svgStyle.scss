@@ -27,3 +27,11 @@ svg#canvas #keyboard text {
     fill : $gray;
   }
 }
+
+svg#canvas #keyDisplay1 rect {
+  fill : $blue;
+}
+
+svg#canvas #keyDisplay2 rect {
+  fill : $red;
+}
