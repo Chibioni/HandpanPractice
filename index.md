@@ -5,6 +5,12 @@ title  : ハンドパントレーニング
 
 # {{site.title}}
 
+## 便利ツール
+
+* [KeyComparator]({{site.github.url}}{% link _pages/Tools/KeyComparator/index.html %})
+
+
+
 ## はじめに
 
 * [はじめに(楽譜のレイアウト、ハンドパンの向きなど)]({{site.github.url}}{% link _pages/Scores/0000/intro.md %})
