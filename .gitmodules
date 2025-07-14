@@ -1,3 +1,6 @@
 [submodule "Submodules/Bootstrap"]
 	path = Submodules/Bootstrap
 	url = https://github.com/twbs/bootstrap.git
+[submodule "scores/Handpan-Lilypond"]
+	path = scores/Handpan-Lilypond
+	url = git@github.com:Chibioni/Handpan-Lilypond.git
